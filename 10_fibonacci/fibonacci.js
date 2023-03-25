@@ -2,7 +2,6 @@ const fibonacci = function(num) {
     if (num < 0) {return 'OOPS'}
     let max = +num;
     fiboSequence = generateFibonacci(max);
-    // return fiboSequence
     return fiboSequence[max-1];
 };
 
